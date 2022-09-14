@@ -1,0 +1,38 @@
+.mainADMIN {
+    background-color: white;
+    flex: 1;
+}
+
+.mainADMIN .mainAdminCONTAINER {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 98%;
+}
+
+.mainAdminCONTAINER {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainAdminCONTAINER .pageDIRETORY {
+    margin: 10px 0px;
+    background-color: #e8ebef;
+}
+
+.mainAdminCONTAINER .adminMAIN {
+    margin: 10px 0px;
+    padding-bottom: 40px;
+    background-color: #e8ebef;
+}
+
+.pageDIRETORY {
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.pageDIRETORY span {
+    margin-right: 5px;
+}

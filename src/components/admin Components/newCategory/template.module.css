@@ -1,0 +1,41 @@
+.newCategoryFORM input {
+    font-size: 15px;
+    margin: 5px 0px;
+    padding-left: 10px;
+    border: 0;
+    height: 30px;
+    outline: 0;
+}
+
+.newCategoryFORM button {
+    margin-left: 50px;
+    width: 60px;
+    height: 25px;
+    background-color: #5048ff;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoryList li {
+    font-size: 20px;
+}
+
+.categoryList span {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.categoryList button {
+    margin-left: 10px;
+    width: 60px;
+    height: 20px;
+    background-color: red;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}

@@ -1,0 +1,129 @@
+.postsBODY {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.post {
+    margin-top: 20px;
+    background-color: transparent;
+    color: black;
+    width: 300px;
+    height: 280px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.post:hover {
+    background-color: white;
+}
+
+
+.post img {
+    margin-top: 10px;
+    
+    width: 95%;
+}
+.post h2 {
+    margin-top: 20px;
+}
+
+.postBUTTONS {
+    display: flex;
+
+}
+.postBUTTONS button {
+    margin: 10px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.postBUTTONS button:hover {
+    background-color: red;
+}
+
+.editPostBody {
+    position: absolute;
+    z-index: 999;
+}
+
+
+.adminNewContainer {
+    display: flex;
+    
+}
+
+.newFORM {
+    flex: 5;
+}
+
+.newPREVIEW {
+    flex: 3;
+}
+
+.newFORM form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newFORM label {
+    margin: 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.newFORM input {
+    font-size: 15px;
+    margin: 5px 0px;
+    padding-left: 10px;
+    border: 0;
+    height: 30px;
+    outline: 0;
+}
+
+.newFORM select {
+    outline: 0;
+    color: #373c42;
+}
+
+.newPREVIEW {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.newPREVIEW img {
+    width: 95%;
+}
+
+.newPREVIEW h2 {
+    margin-right: 15px;
+}
+
+.buttonsFINISH button {
+    margin-left: 10px;
+    height: 25px;
+    width: 80px;
+    padding: 5px;
+    background-color: #d95457;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    white-space: nowrap
+}
+.editPostBody {
+    background-color: #e8ebef;
+    position: relative;
+}

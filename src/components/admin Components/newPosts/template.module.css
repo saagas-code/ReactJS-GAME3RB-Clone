@@ -1,0 +1,65 @@
+.adminNewContainer {
+    display: flex;
+}
+
+.newFORM {
+    flex: 5;
+}
+
+.newPREVIEW {
+    flex: 3;
+}
+
+.newFORM form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newFORM label {
+    margin: 5px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.newFORM input {
+    font-size: 15px;
+    margin: 5px 0px;
+    padding-left: 10px;
+    border: 0;
+    height: 30px;
+    outline: 0;
+}
+
+.newFORM select {
+    outline: 0;
+    color: #373c42;
+}
+
+.newPREVIEW {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.newPREVIEW img {
+    width: 95%;
+}
+
+.newPREVIEW h2 {
+    margin-right: 15px;
+}
+
+.buttonsFINISH button {
+    margin-left: 10px;
+    height: 25px;
+    width: 80px;
+    padding: 5px;
+    background-color: #d95457;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    white-space: nowrap
+}

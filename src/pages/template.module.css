@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+a:visited {
+    
+}
+Body a:hover {
+    
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.ttf');
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+.bodyLogin {
+    background-color: #f0f0f1;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyADMIN {
+    height: 100vh;
+    background-color: white;
+}
+
+
+.mainADMIN {
+    background-color: white;
+    display: flex;
+    flex: 1;
+}
+.mainADMIN div {
+    
+}
+
+.mainADMIN .adminNAV {
+    background-color: red;
+}

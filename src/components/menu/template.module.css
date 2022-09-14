@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/Poppins-Bold.ttf');
+}
+a {
+    text-decoration: none;
+    list-style: none;
+}
+a:visited {
+    color: #4c4c4c;
+}
+Body a:hover {
+    color: white;
+}
+
+.Body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+}
+
+.headerMENU {
+    background-color: #ff0036;
+    max-width: 100%;
+    height: 50px;
+    display: none;
+}
+.headerMenuCONTAINER {
+    background-color: transparent;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.menuLIST {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menuLIST:hover {
+    cursor: pointer;
+}
+.headerMENU .headerMenuCONTAINER .menuLIST {
+    flex-wrap: wrap;
+}
+.menuITEM {
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    
+}
+
+
+@media (min-width: 800px) {
+    .headerMENU {
+        display: flex;
+    }
+}
+
+/*----------  MENU MOBILE  ---------*/
+
+
+.mbMENU {
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    display: none;
+
+}
+.mbMenuCONTAINER {
+    background-color: red;
+    height: inherit;
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    
+}
+.mbMenuCONTAINER span {
+    margin-right: 10px;
+    position: relative;
+    
+}
+.dropdownMENU {
+    position: absolute;
+    background-color: #ff0036;
+    width: 100%;
+    top: 149.5px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+}
+.dropdownMENU li {
+    padding: 8px 15px;
+    color: white;
+
+}
+.dropdownMENU li:hover {
+    background-color: rgb(155,81,224);
+    cursor: pointer;
+
+}
+.dropdownMENU li a:hover {
+    background-color: rgb(155,81,224);
+    color: white;
+
+}
+.dropdownMENU li a {
+    color: white;
+    
+}
+
+/*
+@media (max-width: 800px) {
+    .mbMENU {
+        display: block;
+    }
+}
+@media (max-width: 800px) {
+    .dropdownGAMES {
+        display: none;
+    }
+    .menuGOTO {
+        display: flex;
+    }
+    .menuWRAPER {
+        display: none;
+    }
+    .mbDropDown {
+        display: flex;
+    }
+    
+    .pcBAR {
+        display: none;
+    }
+    .headerMenu ul {
+        justify-content: center;
+        
+    } 
+}
+@media (min-width: 800px) {
+    .headerMenu {
+        flex-wrap: wrap;
+    }
+    .headerMenu ul {
+        justify-content: center;
+        display: flex;
+    }
+    
+}
+*/
+
+
+.dropdown {
+    background-color: transparent;
+    position: absolute;
+    max-width: 1200px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 80px;
+    font-family: 'Poppins';
+    overflow: hidden;
+    transition: opacity 0.5s ease-in;
+    transition: top 0.5s ease-in;
+    transition: visibility 0.5s;
+    transition: all 0s ease-in;
+    transition: all 1s ease-out;
+    transition: index 1000ms ease-in-out;
+    
+    
+    
+    
+    
+}
+.dropdown ul {
+    z-index: 15;
+}
+.dropdown ul li a {
+    transition: color 0.5s;
+}
+.dropdown ul li {
+    padding-right: 190px;
+    padding-left: 20px;
+    white-space: nowrap;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.dropdown ul li:hover {
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+.dropdown ul li:hover a {
+    color: white;
+}
+
+/*
+@media (max-width: 1200px) {
+    .dropdown {
+        max-width: 100%;
+
+    }
+    .dropdown ul {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .dropdown ul li {
+        padding-right: 20%;
+        padding-left: 20px;
+        white-space: nowrap;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+}
+*/
+
+
+
+.menuLIST a {
+    color: white;
+}
+
+.subITEM a {
+    color: #4c4c4c;
+    width: 100%;
+}
